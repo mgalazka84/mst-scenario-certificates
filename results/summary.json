@@ -1,0 +1,87 @@
+{
+  "example": {
+    "separate_union_cost": 4,
+    "joint_cost": 3
+  },
+  "reduction": [
+    {
+      "graph": "P3",
+      "measurements": 7,
+      "subsets": 128,
+      "certificates": 34,
+      "optimum": 3
+    },
+    {
+      "graph": "K3",
+      "measurements": 9,
+      "subsets": 512,
+      "certificates": 76,
+      "optimum": 5
+    },
+    {
+      "graph": "K1,3",
+      "measurements": 10,
+      "subsets": 1024,
+      "certificates": 152,
+      "optimum": 4
+    },
+    {
+      "graph": "C4",
+      "measurements": 12,
+      "subsets": 4096,
+      "certificates": 322,
+      "optimum": 6
+    },
+    {
+      "graph": "K4",
+      "measurements": 16,
+      "subsets": 65536,
+      "certificates": 1914,
+      "optimum": 9
+    }
+  ],
+  "small": {
+    "seed": 1741,
+    "instances": 150,
+    "certificate_subsets": 3202,
+    "with_mandatory": 111,
+    "with_nominal_ties": 62
+  },
+  "clique": [
+    {
+      "scenarios": 1,
+      "clique": 2,
+      "optimum": 1,
+      "lp_numerator": 2,
+      "lp_denominator": 2
+    },
+    {
+      "scenarios": 2,
+      "clique": 4,
+      "optimum": 3,
+      "lp_numerator": 4,
+      "lp_denominator": 2
+    },
+    {
+      "scenarios": 3,
+      "clique": 8,
+      "optimum": 7,
+      "lp_numerator": 8,
+      "lp_denominator": 2
+    }
+  ],
+  "cycle": {
+    "labelled_graphs": 64,
+    "certificate_subsets": 1024,
+    "minimum_scenario_histogram": {
+      "1": 23,
+      "2": 40,
+      "3": 1
+    }
+  },
+  "cactus": {
+    "seed": 729,
+    "instances": 30,
+    "certificate_subsets": 11776
+  }
+}

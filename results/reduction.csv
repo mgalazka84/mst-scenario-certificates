@@ -1,0 +1,6 @@
+graph,measurements,subsets,certificates,optimum
+P3,7,128,34,3
+K3,9,512,76,5
+"K1,3",10,1024,152,4
+C4,12,4096,322,6
+K4,16,65536,1914,9
